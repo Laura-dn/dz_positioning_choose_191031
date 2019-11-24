@@ -1,0 +1,28 @@
+body {
+    width: 50%;
+    margin: 50px auto;
+    }
+table {
+    border-spacing: 0;
+    overflow: hidden; /*Заокругливаем углы в таблице. Для этого прячем всё за пределами области элемента*/
+    border-radius: 6px;  /* Заокругливаем углы  */
+    text-align: center;
+    font-family: Arial;  
+    }
+tr,th,td {padding: 15px 40px 15px 40px;}
+th {color: white;} /*Меняем цвет шрифта на белый*/
+th:first-child {background-color: rgb(154, 120, 248);}
+th:nth-child(2) {background-color: rgb(135, 7, 255);}
+th:nth-child(3) {background-color: rgb(109, 6, 206);}
+th:nth-child(4) {background-color: rgb(90, 5, 170);}
+th:nth-child(5) {background-color: rgb(70, 4, 133);}
+tr:nth-child(even) {background-color: rgb(228, 223, 217);} /*Меняем цвет для всех четных детей*/
+tr:nth-child(odd) {background-color: rgb(245, 242, 239);} /*Меняем цвет для всех нечетных детей*/
+td:nth-child(2) {box-shadow: inset 0 0 0 5000px rgba(255,255,255,0.4);} /*Создаем эффект матового стекла*/
+td:nth-child(4) {box-shadow: inset 0 0 0 5000px rgba(255,255,255,0.4);}
+div:nth-child(2) {font-size: 2em;}
+button {
+    padding: 10px 20px 10px 20px;
+    font-size: 0.8em;
+    }
+div:first-child {padding: 0px 0 20px 0;}
